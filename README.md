@@ -95,7 +95,6 @@ GET /api/users/{id} # No authentication required
 POST /api/orders/{order_id} # Authentication bypass possible
 GET /api/payments # Exposes all payment data
 
-
 ---
 
 #### 4. SQL Injection in API & Database
@@ -110,7 +109,6 @@ Multiple SQL injection points in API endpoints and application code.
 
 GET /api/users/search?name=' OR '1'='1
 GET /api/orders?user_id=1' UNION SELECT * FROM users--
-
 
 ---
 
@@ -349,7 +347,6 @@ All screenshots are annotated and cross-referenced in the full assessment report
 ✅ SQLite Browser - Database analysis
 ✅ Android Studio - Logcat monitoring
 
-
 ### Comprehensive Methodology
 - **OWASP Mobile Top 10** - Mobile application security assessment
 - **OWASP API Top 10** - Backend API vulnerability testing
@@ -421,7 +418,6 @@ InsecureShop-Security-Assessment/
 ├── Phase_1_Critical.md
 ├── Phase_2_High.md
 └── Phase_3_Medium.md
-
 
 ---
 
